@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// Another comment
 func postHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Received POST request!")
 
